@@ -1,0 +1,9 @@
+version: '3'
+services:
+  node:
+    build:
+      context: .
+    ports:
+      - 7075:7075
+      - 7075:7075/udp
+      - 7076:7076
